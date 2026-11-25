@@ -56,4 +56,4 @@ with tab3:
               ("NRC Kenya","Norwegian RC: nairobi@nrc.no","nrc.no/kenya")]
     for name,phone,web in contacts:
         st.markdown(f'<div class="w-card"><b>{name}</b><br>📞 {phone} | 🌐 {web}</div>',unsafe_allow_html=True)
-st.markdown("---"); st.caption("🌍 Wakimbizi AI v1.0 | UNHCR: unhcr.org/kenya | Habari za elimu tu | CC BY-NC-ND 4.0")
+st.markdown("---"); st.caption("🌍 Wakimbizi AI v1.0 | UNHCR: unhcr.org/kenya | Habari za elimu tu | MIT")
